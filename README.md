@@ -45,6 +45,12 @@
 }
 ```
 
+## Some ScreenShots
+
+![](https://github.com/safiriGitHub/QRCodeReader/blob/master/SCREENSHOT/IMG_2790.PNG)
+![](https://github.com/safiriGitHub/QRCodeReader/blob/master/SCREENSHOT/IMG_2791.PNG)
+![](https://github.com/safiriGitHub/QRCodeReader/blob/master/SCREENSHOT/IMG_2792.PNG)
+
 ## Installation
 
 ```ruby
