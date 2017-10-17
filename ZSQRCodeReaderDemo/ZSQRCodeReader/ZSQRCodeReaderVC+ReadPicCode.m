@@ -7,12 +7,13 @@
 //
 
 #import "ZSQRCodeReaderVC+ReadPicCode.h"
+#import "TZImagePickerController.h"
 #import <objc/runtime.h>
 
 static const void *readPicCodeResultViewKey = &readPicCodeResultViewKey;
 static const void *isResultViewShowKey = &isResultViewShowKey;
 static const void *imagePickerNavbarTintColorKey = &imagePickerNavbarTintColorKey;
-@interface ZSQRCodeReaderVC ()
+@interface ZSQRCodeReaderVC ()<TZImagePickerControllerDelegate>
 @property (nonatomic ,assign ,readwrite) BOOL isResultViewShow;
 @end
 

@@ -7,9 +7,9 @@
 //
 
 #import "ZSQRCodeReaderVC.h"
-#import "TZImagePickerController.h"
+
 ///只能读取二维码
-@interface ZSQRCodeReaderVC (ReadPicCode)<UINavigationControllerDelegate, UIImagePickerControllerDelegate,TZImagePickerControllerDelegate>
+@interface ZSQRCodeReaderVC (ReadPicCode)<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 - (void)setRightPicTitle;
 @property (nonatomic ,strong) UIColor *imagePickerNavbarTintColor;
 ///透明扫描区域提示View
