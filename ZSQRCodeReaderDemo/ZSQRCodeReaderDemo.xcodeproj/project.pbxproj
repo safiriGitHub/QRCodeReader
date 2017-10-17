@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D3B2C1F95CF2000AD0C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B2B1F95CF2000AD0C23 /* AppDelegate.m */; };
+		030D3B2F1F95CF2000AD0C23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B2E1F95CF2000AD0C23 /* ViewController.m */; };
+		030D3B321F95CF2000AD0C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030D3B301F95CF2000AD0C23 /* Main.storyboard */; };
+		030D3B341F95CF2000AD0C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030D3B331F95CF2000AD0C23 /* Assets.xcassets */; };
+		030D3B3A1F95CF2000AD0C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B391F95CF2000AD0C23 /* main.m */; };
+		030D3B541F95D08700AD0C23 /* ZSQRAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B491F95D07200AD0C23 /* ZSQRAlphaView.m */; };
+		030D3B551F95D08A00AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B4B1F95D07200AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.m */; };
+		030D3B561F95D08E00AD0C23 /* ZSQRCodeReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B4D1F95D07200AD0C23 /* ZSQRCodeReaderVC.m */; };
+		030D3B571F95D09000AD0C23 /* ZSQRReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B4F1F95D07200AD0C23 /* ZSQRReader.m */; };
+		030D3B581F95D09200AD0C23 /* ZSQRTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B511F95D07200AD0C23 /* ZSQRTool.m */; };
+		030D3B591F95D09400AD0C23 /* ZSQRTorchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B531F95D07200AD0C23 /* ZSQRTorchView.m */; };
+		030D3B5B1F95D95800AD0C23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030D3B5A1F95D95800AD0C23 /* Launch Screen.storyboard */; };
+		030D3B641F9601B600AD0C23 /* ZSQRCodeReader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 030D3B631F9601B600AD0C23 /* ZSQRCodeReader.bundle */; };
+		030D3B671F96026800AD0C23 /* NSBundle+ZSQRReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B661F96026800AD0C23 /* NSBundle+ZSQRReader.m */; };
+		CD276BD843C4EB362D91FBF8 /* libPods-ZSQRCodeReaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 089F35739A3A8F26FDECD5FF /* libPods-ZSQRCodeReaderDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D3B271F95CF2000AD0C23 /* ZSQRCodeReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSQRCodeReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030D3B2A1F95CF2000AD0C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		030D3B2B1F95CF2000AD0C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		030D3B2D1F95CF2000AD0C23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		030D3B2E1F95CF2000AD0C23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		030D3B311F95CF2000AD0C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030D3B331F95CF2000AD0C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030D3B381F95CF2000AD0C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030D3B391F95CF2000AD0C23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030D3B481F95D07200AD0C23 /* ZSQRAlphaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSQRAlphaView.h; sourceTree = "<group>"; };
+		030D3B491F95D07200AD0C23 /* ZSQRAlphaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSQRAlphaView.m; sourceTree = "<group>"; };
+		030D3B4A1F95D07200AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSQRCodeReaderVC+ReadPicCode.h"; sourceTree = "<group>"; };
+		030D3B4B1F95D07200AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZSQRCodeReaderVC+ReadPicCode.m"; sourceTree = "<group>"; };
+		030D3B4C1F95D07200AD0C23 /* ZSQRCodeReaderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSQRCodeReaderVC.h; sourceTree = "<group>"; };
+		030D3B4D1F95D07200AD0C23 /* ZSQRCodeReaderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSQRCodeReaderVC.m; sourceTree = "<group>"; };
+		030D3B4E1F95D07200AD0C23 /* ZSQRReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSQRReader.h; sourceTree = "<group>"; };
+		030D3B4F1F95D07200AD0C23 /* ZSQRReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSQRReader.m; sourceTree = "<group>"; };
+		030D3B501F95D07200AD0C23 /* ZSQRTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSQRTool.h; sourceTree = "<group>"; };
+		030D3B511F95D07200AD0C23 /* ZSQRTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSQRTool.m; sourceTree = "<group>"; };
+		030D3B521F95D07200AD0C23 /* ZSQRTorchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSQRTorchView.h; sourceTree = "<group>"; };
+		030D3B531F95D07200AD0C23 /* ZSQRTorchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSQRTorchView.m; sourceTree = "<group>"; };
+		030D3B5A1F95D95800AD0C23 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		030D3B631F9601B600AD0C23 /* ZSQRCodeReader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZSQRCodeReader.bundle; sourceTree = "<group>"; };
+		030D3B651F96026800AD0C23 /* NSBundle+ZSQRReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZSQRReader.h"; sourceTree = "<group>"; };
+		030D3B661F96026800AD0C23 /* NSBundle+ZSQRReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZSQRReader.m"; sourceTree = "<group>"; };
+		089F35739A3A8F26FDECD5FF /* libPods-ZSQRCodeReaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZSQRCodeReaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5550AA79681EC2E731814D10 /* Pods-ZSQRCodeReaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSQRCodeReaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88F3FE0446DD1CD0C2637608 /* Pods-ZSQRCodeReaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSQRCodeReaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030D3B241F95CF2000AD0C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD276BD843C4EB362D91FBF8 /* libPods-ZSQRCodeReaderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030D3B1E1F95CF2000AD0C23 = {
+			isa = PBXGroup;
+			children = (
+				030D3B401F95D07200AD0C23 /* ZSQRCodeReader */,
+				030D3B291F95CF2000AD0C23 /* ZSQRCodeReaderDemo */,
+				030D3B281F95CF2000AD0C23 /* Products */,
+				3B1780968FBBC8C6270B9E38 /* Pods */,
+				8CB64B07ABFBCE996CC569ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		030D3B281F95CF2000AD0C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030D3B271F95CF2000AD0C23 /* ZSQRCodeReaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030D3B291F95CF2000AD0C23 /* ZSQRCodeReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				030D3B2A1F95CF2000AD0C23 /* AppDelegate.h */,
+				030D3B2B1F95CF2000AD0C23 /* AppDelegate.m */,
+				030D3B2D1F95CF2000AD0C23 /* ViewController.h */,
+				030D3B2E1F95CF2000AD0C23 /* ViewController.m */,
+				030D3B301F95CF2000AD0C23 /* Main.storyboard */,
+				030D3B331F95CF2000AD0C23 /* Assets.xcassets */,
+				030D3B5A1F95D95800AD0C23 /* Launch Screen.storyboard */,
+				030D3B381F95CF2000AD0C23 /* Info.plist */,
+				030D3B391F95CF2000AD0C23 /* main.m */,
+			);
+			path = ZSQRCodeReaderDemo;
+			sourceTree = "<group>";
+		};
+		030D3B401F95D07200AD0C23 /* ZSQRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				030D3B481F95D07200AD0C23 /* ZSQRAlphaView.h */,
+				030D3B491F95D07200AD0C23 /* ZSQRAlphaView.m */,
+				030D3B4A1F95D07200AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.h */,
+				030D3B4B1F95D07200AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.m */,
+				030D3B4C1F95D07200AD0C23 /* ZSQRCodeReaderVC.h */,
+				030D3B4D1F95D07200AD0C23 /* ZSQRCodeReaderVC.m */,
+				030D3B4E1F95D07200AD0C23 /* ZSQRReader.h */,
+				030D3B4F1F95D07200AD0C23 /* ZSQRReader.m */,
+				030D3B501F95D07200AD0C23 /* ZSQRTool.h */,
+				030D3B511F95D07200AD0C23 /* ZSQRTool.m */,
+				030D3B521F95D07200AD0C23 /* ZSQRTorchView.h */,
+				030D3B531F95D07200AD0C23 /* ZSQRTorchView.m */,
+				030D3B651F96026800AD0C23 /* NSBundle+ZSQRReader.h */,
+				030D3B661F96026800AD0C23 /* NSBundle+ZSQRReader.m */,
+				030D3B631F9601B600AD0C23 /* ZSQRCodeReader.bundle */,
+			);
+			path = ZSQRCodeReader;
+			sourceTree = "<group>";
+		};
+		3B1780968FBBC8C6270B9E38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88F3FE0446DD1CD0C2637608 /* Pods-ZSQRCodeReaderDemo.debug.xcconfig */,
+				5550AA79681EC2E731814D10 /* Pods-ZSQRCodeReaderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CB64B07ABFBCE996CC569ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089F35739A3A8F26FDECD5FF /* libPods-ZSQRCodeReaderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030D3B261F95CF2000AD0C23 /* ZSQRCodeReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030D3B3D1F95CF2000AD0C23 /* Build configuration list for PBXNativeTarget "ZSQRCodeReaderDemo" */;
+			buildPhases = (
+				1CA5618FFACC3A5ECD074D39 /* [CP] Check Pods Manifest.lock */,
+				030D3B231F95CF2000AD0C23 /* Sources */,
+				030D3B241F95CF2000AD0C23 /* Frameworks */,
+				030D3B251F95CF2000AD0C23 /* Resources */,
+				ABCEC7102804D9646E186028 /* [CP] Embed Pods Frameworks */,
+				901DA647D17BC91FEE5852C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSQRCodeReaderDemo;
+			productName = ZSQRCodeReaderDemo;
+			productReference = 030D3B271F95CF2000AD0C23 /* ZSQRCodeReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030D3B1F1F95CF2000AD0C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = safiri;
+				TargetAttributes = {
+					030D3B261F95CF2000AD0C23 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 030D3B221F95CF2000AD0C23 /* Build configuration list for PBXProject "ZSQRCodeReaderDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030D3B1E1F95CF2000AD0C23;
+			productRefGroup = 030D3B281F95CF2000AD0C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030D3B261F95CF2000AD0C23 /* ZSQRCodeReaderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030D3B251F95CF2000AD0C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D3B5B1F95D95800AD0C23 /* Launch Screen.storyboard in Resources */,
+				030D3B641F9601B600AD0C23 /* ZSQRCodeReader.bundle in Resources */,
+				030D3B341F95CF2000AD0C23 /* Assets.xcassets in Resources */,
+				030D3B321F95CF2000AD0C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA5618FFACC3A5ECD074D39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZSQRCodeReaderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901DA647D17BC91FEE5852C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCEC7102804D9646E186028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030D3B231F95CF2000AD0C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D3B2F1F95CF2000AD0C23 /* ViewController.m in Sources */,
+				030D3B591F95D09400AD0C23 /* ZSQRTorchView.m in Sources */,
+				030D3B3A1F95CF2000AD0C23 /* main.m in Sources */,
+				030D3B2C1F95CF2000AD0C23 /* AppDelegate.m in Sources */,
+				030D3B581F95D09200AD0C23 /* ZSQRTool.m in Sources */,
+				030D3B671F96026800AD0C23 /* NSBundle+ZSQRReader.m in Sources */,
+				030D3B541F95D08700AD0C23 /* ZSQRAlphaView.m in Sources */,
+				030D3B561F95D08E00AD0C23 /* ZSQRCodeReaderVC.m in Sources */,
+				030D3B571F95D09000AD0C23 /* ZSQRReader.m in Sources */,
+				030D3B551F95D08A00AD0C23 /* ZSQRCodeReaderVC+ReadPicCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		030D3B301F95CF2000AD0C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030D3B311F95CF2000AD0C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030D3B3B1F95CF2000AD0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		030D3B3C1F95CF2000AD0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030D3B3E1F95CF2000AD0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F3FE0446DD1CD0C2637608 /* Pods-ZSQRCodeReaderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWZH7TV284;
+				INFOPLIST_FILE = ZSQRCodeReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egintra.ZSQRCodeReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030D3B3F1F95CF2000AD0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5550AA79681EC2E731814D10 /* Pods-ZSQRCodeReaderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWZH7TV284;
+				INFOPLIST_FILE = ZSQRCodeReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egintra.ZSQRCodeReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030D3B221F95CF2000AD0C23 /* Build configuration list for PBXProject "ZSQRCodeReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030D3B3B1F95CF2000AD0C23 /* Debug */,
+				030D3B3C1F95CF2000AD0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030D3B3D1F95CF2000AD0C23 /* Build configuration list for PBXNativeTarget "ZSQRCodeReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030D3B3E1F95CF2000AD0C23 /* Debug */,
+				030D3B3F1F95CF2000AD0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030D3B1F1F95CF2000AD0C23 /* Project object */;
+}
