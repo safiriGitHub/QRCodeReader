@@ -3,6 +3,11 @@
 ## Introduce
 二维码/条形码扫描读取，界面及交互模仿微信。相册照片选择依赖第三方库[TZImagePickerController](https://github.com/banchichen/TZImagePickerController)
 
+## Installation
+
+```ruby
+pod "ZSQRCodeReader"
+```
 ## Example
 
 ```Objective-C
@@ -50,12 +55,6 @@
 ![](https://github.com/safiriGitHub/QRCodeReader/blob/master/SCREENSHOT/IMG_2790.PNG)
 ![](https://github.com/safiriGitHub/QRCodeReader/blob/master/SCREENSHOT/IMG_2791.PNG)
 ![](https://github.com/safiriGitHub/QRCodeReader/blob/master/SCREENSHOT/IMG_2792.PNG)
-
-## Installation
-
-```ruby
-pod "ZSQRCodeReader"
-```
 
 ## Author
 
