@@ -15,6 +15,9 @@
 @property (nonatomic ,assign) CGFloat transparentSide;
 ///透明的区域大小Rect
 @property (nonatomic, assign)CGRect transparentRect;
+///透明的区域Y调整
+@property (nonatomic ,assign) CGFloat ajustTransparentAreaY;
+
 
 @property (nonatomic ,assign ,readonly) BOOL isLineMoving;
 

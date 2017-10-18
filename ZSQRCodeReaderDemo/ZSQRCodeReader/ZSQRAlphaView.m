@@ -48,7 +48,7 @@ static CGFloat CornerLineWidth = 2.0f;//四个角的宽度
 - (CGRect)transparentRect {
     if (CGRectEqualToRect(_transparentRect, CGRectZero)) {
         CGSize screenSize = [ZSQRTool screenBounds].size;
-        _transparentRect = CGRectMake((screenSize.width - self.transparentSide)/2, (screenSize.height - self.transparentSide)/ 2, self.transparentSide, self.transparentSide);
+        _transparentRect = CGRectMake((screenSize.width - self.transparentSide)/2, (screenSize.height - self.transparentSide)/ 2+self.ajustTransparentAreaY, self.transparentSide, self.transparentSide);
     }
     return _transparentRect;
 }

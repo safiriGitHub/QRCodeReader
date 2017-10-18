@@ -41,6 +41,7 @@
             [weakSelf presentViewController:alert animated:YES completion:nil];
         };
         codeReaderVC.scanLabelHintString = @"将条形码放入框内,即可自动扫描";
+        codeReaderVC.ajustTransparentAreaY = -50;
         [self.navigationController pushViewController:codeReaderVC animated:YES];
     }else {
         

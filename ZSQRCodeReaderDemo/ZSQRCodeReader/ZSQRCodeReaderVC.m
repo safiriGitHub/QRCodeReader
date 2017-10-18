@@ -151,6 +151,7 @@ typedef NS_ENUM(NSUInteger, QRScanBrightnessModel) {
     if (!_qrAlphaView) {
         CGRect screenRect = [ZSQRTool screenBounds];
         _qrAlphaView = [[ZSQRAlphaView alloc]initWithFrame:CGRectMake(screenRect.origin.x, screenRect.origin.y, screenRect.size.width, screenRect.size.height)];
+        _qrAlphaView.ajustTransparentAreaY = self.ajustTransparentAreaY;
         self.scanReaderRect = _qrAlphaView.transparentRect;
         _qrAlphaView.backgroundColor = [UIColor clearColor];
         [self addLabelView];
@@ -198,8 +199,7 @@ typedef NS_ENUM(NSUInteger, QRScanBrightnessModel) {
     CGFloat screenHeight = self.view.frame.size.height;
     
     self.qrAlphaView.center = CGPointMake(screenWidth / 2, screenHeight / 2);
-    CGRect cropRect = CGRectMake((screenWidth - self.scanReaderRect.size.width) / 2, (screenHeight - self.scanReaderRect.size.height) / 2 + self.ajustTransparentAreaY, self.scanReaderRect.size.width, self.scanReaderRect.size.height);
-    [self.codeReader setRectOfInterest:cropRect width:screenWidth height:screenHeight];
+    [self.codeReader setRectOfInterest:self.scanReaderRect width:screenWidth height:screenHeight];
 }
 ///手电筒开关点击
 - (void)torchSwitchClick {
