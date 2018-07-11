@@ -19,8 +19,8 @@
 		030D3B581F95D09200AD0C23 /* ZSQRTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B511F95D07200AD0C23 /* ZSQRTool.m */; };
 		030D3B591F95D09400AD0C23 /* ZSQRTorchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B531F95D07200AD0C23 /* ZSQRTorchView.m */; };
 		030D3B5B1F95D95800AD0C23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030D3B5A1F95D95800AD0C23 /* Launch Screen.storyboard */; };
-		030D3B641F9601B600AD0C23 /* ZSQRCodeReader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 030D3B631F9601B600AD0C23 /* ZSQRCodeReader.bundle */; };
 		030D3B671F96026800AD0C23 /* NSBundle+ZSQRReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D3B661F96026800AD0C23 /* NSBundle+ZSQRReader.m */; };
+		035DC7FF20F5F23600CE97ED /* ZSQRCodeReader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 035DC7FE20F5F23600CE97ED /* ZSQRCodeReader.bundle */; };
 		CD276BD843C4EB362D91FBF8 /* libPods-ZSQRCodeReaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 089F35739A3A8F26FDECD5FF /* libPods-ZSQRCodeReaderDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -47,9 +47,9 @@
 		030D3B521F95D07200AD0C23 /* ZSQRTorchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSQRTorchView.h; sourceTree = "<group>"; };
 		030D3B531F95D07200AD0C23 /* ZSQRTorchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSQRTorchView.m; sourceTree = "<group>"; };
 		030D3B5A1F95D95800AD0C23 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		030D3B631F9601B600AD0C23 /* ZSQRCodeReader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZSQRCodeReader.bundle; sourceTree = "<group>"; };
 		030D3B651F96026800AD0C23 /* NSBundle+ZSQRReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZSQRReader.h"; sourceTree = "<group>"; };
 		030D3B661F96026800AD0C23 /* NSBundle+ZSQRReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZSQRReader.m"; sourceTree = "<group>"; };
+		035DC7FE20F5F23600CE97ED /* ZSQRCodeReader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZSQRCodeReader.bundle; sourceTree = "<group>"; };
 		089F35739A3A8F26FDECD5FF /* libPods-ZSQRCodeReaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZSQRCodeReaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5550AA79681EC2E731814D10 /* Pods-ZSQRCodeReaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSQRCodeReaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		88F3FE0446DD1CD0C2637608 /* Pods-ZSQRCodeReaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSQRCodeReaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZSQRCodeReaderDemo/Pods-ZSQRCodeReaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,10 +119,18 @@
 				030D3B531F95D07200AD0C23 /* ZSQRTorchView.m */,
 				030D3B651F96026800AD0C23 /* NSBundle+ZSQRReader.h */,
 				030D3B661F96026800AD0C23 /* NSBundle+ZSQRReader.m */,
-				030D3B631F9601B600AD0C23 /* ZSQRCodeReader.bundle */,
+				035DC7FD20F5F23600CE97ED /* Assets */,
 			);
 			path = ZSQRCodeReader;
 			sourceTree = "<group>";
+		};
+		035DC7FD20F5F23600CE97ED /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				035DC7FE20F5F23600CE97ED /* ZSQRCodeReader.bundle */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
 		};
 		3B1780968FBBC8C6270B9E38 /* Pods */ = {
 			isa = PBXGroup;
@@ -203,9 +211,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				030D3B5B1F95D95800AD0C23 /* Launch Screen.storyboard in Resources */,
-				030D3B641F9601B600AD0C23 /* ZSQRCodeReader.bundle in Resources */,
 				030D3B341F95CF2000AD0C23 /* Assets.xcassets in Resources */,
 				030D3B321F95CF2000AD0C23 /* Main.storyboard in Resources */,
+				035DC7FF20F5F23600CE97ED /* ZSQRCodeReader.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

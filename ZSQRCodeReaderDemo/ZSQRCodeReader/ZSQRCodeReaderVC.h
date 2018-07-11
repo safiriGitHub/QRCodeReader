@@ -19,6 +19,11 @@ typedef void(^readErrorBlock)(NSString * _Nullable errorMsg);
 @property (nonatomic ,copy ,nonnull)readCompleteBlock completeBlock;
 @property (nonatomic ,copy ,nullable)readErrorBlock errorBlock;
 @property (nonatomic ,assign) CGFloat ajustTransparentAreaY;
+
+/**
+ 是否打开从相册读取二维码功能，默认不打开
+ */
+@property (nonatomic ,assign) BOOL isAllowScanForPhoto;
 ///init之前检测是否可用
 + (BOOL)isReadyForCodeReader;
 #pragma mark - action

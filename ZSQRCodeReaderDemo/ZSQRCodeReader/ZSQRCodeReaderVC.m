@@ -76,7 +76,9 @@ typedef NS_ENUM(NSUInteger, QRScanBrightnessModel) {
     //覆盖含透明区域的View
     [self.view addSubview:self.qrAlphaView];
     [self.view addSubview:self.torchLightView];
-    [self setRightPicTitle];
+    if (self.isAllowScanForPhoto) {
+        [self setRightPicTitle];
+    }
 }
 
 #pragma mark -
